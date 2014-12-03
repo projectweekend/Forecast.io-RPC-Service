@@ -22,7 +22,7 @@ var run = function () {
                 logger.log( "Error with: 'weatherman.doForecast'" );
                 process.exit();
             }
-            ack( JSON.stringify( data ) );
+            ack( data );
         } );
     };
 
