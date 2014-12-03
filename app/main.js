@@ -13,6 +13,9 @@ var run = function () {
     var weatherman = connections.weatherman();
 
     var handleMessage = function ( message, ack ) {
+        if ( typeof message.options !== "undefined" ) {
+            weatherman.options( message.options );
+        }
         weatherman.goOnLocation( message.latitude, message.longitude );
         weatherman.doForecast( function ( err, data ) {
             if ( err ) {
