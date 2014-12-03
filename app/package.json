@@ -22,6 +22,7 @@
   "dependencies": {
     "jackrabbit": "^3.0.8",
     "loggly": "^1.0.7",
-    "throng": "^1.0.0"
+    "throng": "^1.0.0",
+    "weatherman.io": "^0.1.5"
   }
 }
