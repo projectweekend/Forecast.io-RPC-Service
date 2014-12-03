@@ -1,0 +1,22 @@
+{
+  "name": "Forecast.io-RPC-Service",
+  "version": "1.0.0",
+  "description": "An RPC service providing Forecast.io data using RabbitMQ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectweekend/Forecast.io-RPC-Service.git"
+  },
+  "keywords": [
+    "Forecast.io"
+  ],
+  "author": "Brian Hines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/projectweekend/Forecast.io-RPC-Service/issues"
+  },
+  "homepage": "https://github.com/projectweekend/Forecast.io-RPC-Service"
+}
