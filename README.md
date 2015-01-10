@@ -1,4 +1,4 @@
-This project connects to a [RabbitMQ](http://www.rabbitmq.com/) server and listens for messages. When a message is received on the appropriate queue, weatehr forecast data is gathered from [Forecast.io](https://developer.forecast.io/) and returned to the client that sent the message.
+This project connects to a [RabbitMQ](http://www.rabbitmq.com/) server and listens for messages. When a message is received on the appropriate queue, weather forecast data is gathered from [Forecast.io](https://developer.forecast.io/) and returned to the client that sent the message.
 
 
 ### Installation with Fabric
